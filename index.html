@@ -1,5 +1,6 @@
+<!DOCTYPE html>
 <head>
-    <meta http-equiv="refresh" content="3" >
+    <title>CSRender</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -233,4 +234,16 @@
       <button class='light'></button>
     </div>
     <script src="main.js"></script>
+    <script>
+        (function(){
+            const urlParams = new URLSearchParams(window.location.search);
+            const page = urlParams.get('page');
+            const urls = {
+                "test": "https://www.google.com"
+            }
+            if (page && urls[page]) {
+                window.location.href = urls[page];
+            }
+         }());
+    </script>
 </body>
