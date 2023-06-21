@@ -230,8 +230,8 @@
       </main>
     </div>
     <div class='options'>
-      <button class='dark'></button>
-      <button class='light'></button>
+      <button class='dark' />
+      <button class='light' />
     </div>
     <script src="main.js"></script>
     <script>
@@ -239,7 +239,8 @@
             const urlParams = new URLSearchParams(window.location.search);
             const page = urlParams.get('page');
             const urls = {
-                "test": "https://www.google.com"
+                "test": "https://www.google.com",
+                "test2": "https://globo.com",
             }
             if (page && urls[page]) {
                 window.location.href = urls[page];
