@@ -11,3 +11,8 @@ body {
   text-align: center;
   width: 100%;
 }
+
+svg path,
+svg rect{
+  fill: #407587;
+}
