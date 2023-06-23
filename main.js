@@ -3,8 +3,8 @@
     const page = urlParams.get('page');
     const urls = {
         "test": "https://www.google.com",
-        "test2": "https://globo.com",
-        "maresias_v": "https://api2.enscape3d.com/v3/view/d9f9e5f3-eea8-47f4-92b9-46fe3a611d98",
+        "baleia_t": "https://api2.enscape3d.com/v3/view/link/5e301ec5-01d9-4f11-bb61-19ea140b7e54/2807e5c7-a28c-467a-adc8-695c97e4eba2",
+        "maresias_v": "https://api2.enscape3d.com/v3/view/link/ff2c4137-3729-4c2d-ba18-b0f81e38b7ff/3a6da296-f846-455c-ab3c-cf30668638d4",
     }
     if (page && urls[page]) {
         window.location.href = urls[page];
