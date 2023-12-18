@@ -7,6 +7,11 @@
         "maresias_v": "https://api2.enscape3d.com/v3/view/link/2aef7fb8-80d7-4e58-b93b-139b5d651fd7/a4be15e9-01f0-41d8-94ea-60ec43f51d2a",
         "bertioga_d3_1": "https://api2.enscape3d.com/v3/view/link/33a15a58-3d80-4635-aa14-c789b3d261fd/635bdc48-4dab-471a-a798-0284571970aa",
         "bertioga_d3_2": "https://api2.enscape3d.com/v3/view/link/7b9a34f5-ce4a-492e-89d2-234221cea7da/60adecec-2bc7-4469-8749-90e1fabdfb08",
+        "/docs/baleia_t": "https://www.linkedin.com/",
+        "/docs/baleia_u": "https://facebook.com/",
+        "/docs/maresias_v": "https://www.instagram.com/",
+        
+        
     }
     if (page && urls[page]) {
         window.location.href = urls[page];
